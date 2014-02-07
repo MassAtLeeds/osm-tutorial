@@ -2,9 +2,9 @@
 
 ## Introduction
 
-Robin Lovelace, a GeoTALISMAN funded researcher at the University of Leeds
-experience with OSM data, in R, QGIS and PostGIS. In a recently 
-submitted funding application, the need to evaluate the quality of 
+Robin Lovelace, a GeoTALISMAN funded researcher at the University of Leeds has
+experience with OSM data in R, QGIS and PostGIS. In a recently 
+submitted Leverhulme funding application, the need to evaluate the quality of 
 sustainable transport datasets was evaluated. This evaluation process 
 could feed into wider research into the cost effectiveness of different 
 pro-cycling interventions and provide accessible tools and datasets 
@@ -13,7 +13,7 @@ for amature and professional transport planners worldwide.
 ## Aims and objectives
 
 The first aim of this research project is to simply assess how good 
-the cycle infrastructure data OSM is. The hypothesis to be tested is that
+the cycle infrastructure data in OSM are. The hypothesis to be tested is that
 OSM is a useful source of data on cycle infrastructure in Great Britain.
 A key question that the research should help answer is: how good is 
 the OSM cyclist dataset,
@@ -21,22 +21,20 @@ compared with both external datasets and empirical observation?
 
 From this baseline the analysis can progress to tackle a number of 
 additional questions. At first, exploratory analysis will be used
-to identify the most promising additional question. 
+to identify the most promising additional questions. 
 
 There are a number of interesting questions and hypotheses that can be 
-answered during the course of this research project. Starting 
-simple and then asking progressively more difficult questions is 
-a good approach. Some starting questions are provided below.
+answered during the course of this research project. Some starting questions are provided below.
 
 - What proportion of bicycle paths (on road and off) are present on OSM?
 - What are the update patterns of cycle path data in OSM (number of contributors, 
 frequency of updates) and how are new paths added (e.g. proportion of cycle tracks 
 added using gpx data).
-- Which areas of Great Britain have received most cycle path updates
+- Which areas of Great Britain have received the most cycle path updates
 over the last 3 years overall, per capita and per cyclist?
 - Do areas of high updates to the cycle network correspond to areas that
 have received public funding?
-- How does cycle infrastructure data OSM compare with Ordance Survey data?
+- How does cycle infrastructure data captured in OSM compare with Ordance Survey data?
 - What are the factors linked to the 'completeness' of the cycle network in differet
 areas (could use recent aerial photography and randomised point to test this).
 
@@ -44,7 +42,7 @@ areas (could use recent aerial photography and randomised point to test this).
 
 The first stage is to subset the most recent OSM-GB dataset, selecting only points, 
 ways and relations relevant to cyclists (primarily bicycle paths) from the 
-gb dataset. This will be done using the command-line tool `osmosis`.
+GB dataset. This will be accomplished using the command-line tool `osmosis`.
 Preliminary analysis of this dataset in R and QGIS will reveal its basic 
 statistical properties: length of route network per person, main types of 
 infrastrure present and when the features were added. 
