@@ -1,4 +1,4 @@
-# Evaluating Open Street Map as a data source for sustainable transport infrastructure
+# Research Proposal with University of Nottingham: Evaluating Open Street Map as a data source for sustainable transport infrastructure
 
 ## Introduction
 
